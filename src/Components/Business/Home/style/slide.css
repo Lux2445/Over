@@ -1,0 +1,122 @@
+.page1_third_section {
+    text-align: center;
+    /* background-color: #f4f4f4; */
+    background-color: #D6E2F3;
+    padding: 40px 0;
+  }
+  
+  .page1_third_section_wrapper_text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .page1_third_section_wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .page1_third_section_cards {
+    padding: 0 25px; 
+    box-sizing: border-box;
+  }
+  
+  .page1_third_section_wrapper_card {
+    background: #fdfdfd;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+  }
+  
+  .page1_third_section_card_img {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 30%;
+  }
+  
+  .page1_third_section_card_paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .page1_third_section_card_title,
+  .page1_third_section_card_title2 {
+    margin: 5px 0;
+  }
+  
+  .page1_third_section_card_link_title {
+    margin-top: 10px;
+  }
+  
+  .page1_third_section_card_link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .page1_slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .page1_slick-dots {
+    bottom: -30px;
+  }
+  
+
+  @media (max-width: 620px) {
+    .page1_third_section_wrapper_card{
+      width: 180px;
+    }
+    .page1_third_section_card_img{
+      margin-left: 40px;
+    }
+
+  }
+
+  @media (max-width: 600px){
+    .page1_third_section_wrapper_card{
+      width: 300px;
+      margin-left: 50px;
+    }
+    .page1_third_section_card_img{
+      margin-left: 100px;
+    }
+  }
+
+  @media (max-width: 560px){
+    .page1_third_section_wrapper_card{
+      margin-left: 25px;
+    }
+  }
+
+  @media (max-width: 520px){
+    .page1_third_section_wrapper_card{
+      margin-left: 15px;
+    }
+  }
+
+  @media (max-width: 480px){
+    .page1_third_section_wrapper_card{
+        width: 260px;
+        margin-left: 30px;
+    }
+    .page1_third_section_card_img{
+      margin-left: 80px;
+    }
+}
+
+@media (max-width: 460px){
+  .page1_third_section_wrapper_card{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 425px){
+  .page1_third_section_wrapper_card{
+    margin-left: -10px;
+  }
+}
